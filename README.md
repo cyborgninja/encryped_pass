@@ -22,17 +22,17 @@
 ####手順：
 1. encryped_emailのところに変更したい文字列を記載します。
 
+       以下の「XXXX...」を置換してください
        ```
-       :encrypted_email => 'info@cyborg-ninja.com',
-       =>
        :encrypted_email => 'XXXXXXXXXXXXXXXXXX',
        ```
-       * XXXX部分は好きにどうぞ
-       
-       
+
 2. rbを実行する
 
        暗号化された文字列がターミナルに表示されるはずです。
+
+* magicの定数は適当に変更してください。
+* コメントアウトしているpassword項目に関しては配列として使う場合にコメントインして使ってください。
 
 
 その他
